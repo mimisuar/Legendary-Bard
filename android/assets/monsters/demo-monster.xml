@@ -1,0 +1,14 @@
+<monster name="De-mon">
+    <gfx src="gfx/demo-monster.png"/>
+    <hp val="10"/>
+    <shield val="1"/> <!-- How many layers the player must go through to be able to hurt the monster -->
+    <exp val="1"/>
+    <attack val="1"/> <!-- monster attacks every few seconds that the player doesn't do anything
+                           or when the note played is incorrect -->
+    <shield-range>
+        <!-- simplest monster in the game. Only uses the notes from the C Major chord -->
+        <note val="0"/> <!-- C -->
+        <note val="4"/> <!-- E -->
+        <note val="7"/> <!-- G -->
+    </shield-range>
+</monster>

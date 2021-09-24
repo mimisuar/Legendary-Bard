@@ -1,0 +1,13 @@
+<monster name="Shrunky">
+    <gfx src="gfx/shrunky.png"/>
+    <hp val="15"/>
+    <shield val="1"/>
+    <exp val="2"/>
+    <attack val="1"/>
+
+    <shield-range>
+        <note val="2"/>
+        <note val="5"/>
+        <note val="9"/>
+    </shield-range>
+</monster>

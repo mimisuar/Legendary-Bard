@@ -1,0 +1,13 @@
+<monster name="Mums">
+    <gfx src="gfx/mums.png"/>
+    <hp val="5"/>
+    <shield val="2"/>
+    <exp val="5"/>
+    <attack val="1"/>
+    <shield-range>
+        <!-- Only uses the notes from the Csus4#5! Tricky! -->
+        <note val="0"/> <!-- C -->
+        <note val="5"/> <!-- F -->
+        <note val="8"/> <!-- G# -->
+    </shield-range>
+</monster>

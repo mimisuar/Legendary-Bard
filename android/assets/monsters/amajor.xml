@@ -1,0 +1,12 @@
+<monster name="A Major">
+    <gfx src="gfx/major.png"/>
+    <hp val="10"/>
+    <shield val="2"/> <!-- How many layers the player must go through to be able to hurt the monster -->
+    <exp val="4"/>
+    <attack val="1"/> <!-- not actually used. oops! -->
+    <shield-range>
+        <note val="1"/> <!-- C# -->
+        <note val="4"/> <!-- E -->
+        <note val="9"/> <!-- A -->
+    </shield-range>
+</monster>
